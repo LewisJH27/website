@@ -1,72 +1,74 @@
-.page-content{
-    height: 100vh;
-    max-height: 100vh;
-    background: black;
+.page-content {
+  height: 100vh;
+  max-height: 100vh;
+  background: black;
 }
 
-.aboutme-content{
-    padding-top: 7.5rem;
-    height: 100%;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center; 
+.aboutme-content {
+  padding-top: 7.5rem;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-.image-side{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:50%;
-    margin:auto;
+.image-side {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: auto;
 }
-.img{
-    border-radius: 100%;
-    height: auto;
-    width: 50%;
+.img {
+  border-radius: 100%;
+  height: auto;
+  max-height: 500px;
+  width: auto;
+  max-width: 200px;
+  padding-top: 20px;
 }
-.text-side{
-    align-items: center;
-    justify-content: center;
-    color: black;
-}  
-.text-header h1{
-    font-weight: 200;
-    font-size: 1.5rem;
-    color: grey;
-    padding-bottom: 20px;
+.text-side {
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
-.line{
-    height: 1px;
-    width: 1%;
-    margin: 0 auto;
-    background: black;  
+.text-header h1 {
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: grey;
+  padding-bottom: 20px;
+}
+.line {
+  height: 1px;
+  width: 1%;
+  margin: 0 auto;
+  background: black;
 }
 
-.text-paragraph{
-    font-size: 1.75rem;
-    margin: 0 5rem;
-    padding-top: 20px
+.text-paragraph {
+  font-size: 1.75rem;
+  margin: 0 5rem;
+  padding-top: 20px;
 }
-.text-paragraph p{
-    font-weight: 300;
-    color: black;
-    text-align: center;
-    padding-bottom:20px;
+.text-paragraph p {
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1040px) {
-    .text-paragraph{
+  .text-paragraph {
     font-size: 1.25rem;
     margin: 0 5rem;
-    padding-top: 20px
-    }
-    .text-paragraph p{
-        font-weight: 300;
-        color: black;
-        text-align: center;
-        padding-bottom:20px;
-    }
-
+    padding-top: 20px;
+  }
+  .text-paragraph p {
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }
