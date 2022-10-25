@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.a638fcfd.css",
-    "main.js": "/website/static/js/main.292b0b72.js",
+    "main.css": "/website/static/css/main.984c5614.css",
+    "main.js": "/website/static/js/main.9f29e416.js",
     "static/media/optics.jpg": "/website/static/media/optics.d63632f49968b8f1de58.jpg",
     "static/media/City.jpg": "/website/static/media/City.394395a2a2980af679ae.jpg",
     "static/media/Me.jpg": "/website/static/media/Me.183637ab53c676c25cb6.jpg",
     "static/media/stocks1.jpg": "/website/static/media/stocks1.0f61d826d7f3819a3562.jpg",
     "static/media/lenses.jpg": "/website/static/media/lenses.ab0923e8ff700a12d788.jpg",
+    "static/media/apsensing.jpeg": "/website/static/media/apsensing.e8fcc590b4a8c123f0c3.jpeg",
     "index.html": "/website/index.html",
-    "main.a638fcfd.css.map": "/website/static/css/main.a638fcfd.css.map",
-    "main.292b0b72.js.map": "/website/static/js/main.292b0b72.js.map"
+    "main.984c5614.css.map": "/website/static/css/main.984c5614.css.map",
+    "main.9f29e416.js.map": "/website/static/js/main.9f29e416.js.map"
   },
   "entrypoints": [
-    "static/css/main.a638fcfd.css",
-    "static/js/main.292b0b72.js"
+    "static/css/main.984c5614.css",
+    "static/js/main.9f29e416.js"
   ]
 }
