@@ -130,12 +130,12 @@
   .work-experience {
     flex-direction: column;
   }
-
   .experience1 .content {
     position: absolute;
+
     text-align: center;
 
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -125%);
     width: 75%;
@@ -145,7 +145,7 @@
     position: absolute;
     text-align: center;
 
-    top: 50%;
+    top: 47.5%;
     left: 50%;
     transform: translate(-50%, 25%);
     width: 75%;
@@ -159,9 +159,9 @@
     height: 50%;
   }
   .experience1 .content h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .experience2 .content h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
