@@ -1,17 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import WorkExperience from "../components/WorkExperience";
-
-const Experience = () => {
+import TruLife from "../components/TruLife";
+const Project1 = () => {
   return (
     <div>
       <Navbar />
-      <WorkExperience />
-
+      <TruLife />
       <Footer />
     </div>
   );
 };
 
-export default Experience;
+export default Project1;

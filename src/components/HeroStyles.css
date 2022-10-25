@@ -68,8 +68,8 @@
 
 .content .arrow-dom {
   padding-top: 100px;
-  
-  animation:  bounce 2s infinite;
+
+  animation: bounce 2s infinite;
 }
 @keyframes bounce {
   0%,

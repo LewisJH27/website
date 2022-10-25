@@ -6,7 +6,6 @@ const AboutMeContent = () => {
   return (
     <div className="page-content">
       <div className="aboutme-content">
-        
         <div className="text-side">
           <div className="text">
             <div className="text-header">
@@ -15,16 +14,19 @@ const AboutMeContent = () => {
             <div className="line"></div>
             <div className="text-paragraph">
               <p>
-                Since Graduating from the University of Sussex with a BSc Theoretical Physics, I have enrolled onto an MSc Theoretical Physics at King's College London. 
-              
+                Since Graduating from the University of Sussex with a BSc
+                Theoretical Physics, I have enrolled onto an MSc Theoretical
+                Physics at King's College London.
               </p>
               <p>
-                I have keen interests in Programming and Finance, undergoing two programming focused internships in the summer of my penultimate and final year at Sussex.
+                I have keen interests in Programming and Finance, undergoing two
+                programming focused internships in the summer of my penultimate
+                and final year at Sussex.
               </p>
               <p>
                 Some hobbies I enjoy include; Body Building, playing Golf and
-                learning about Ancient History. In the future I hope to delve into
-                the world of Quantitative Finance.
+                learning about Ancient History. In the future I hope to delve
+                into the world of Quantitative Finance.
               </p>
             </div>
             <div className="line"></div>

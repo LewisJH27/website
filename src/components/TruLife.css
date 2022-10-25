@@ -1,0 +1,95 @@
+.base-content {
+  min-height: 100vh;
+  background: slategray;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.tl-content {
+  margin: auto;
+  border-radius: 25px;
+  padding-top: 4rem;
+  height: 100%;
+  width: 90%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.tl-img {
+  height: 200px;
+  width: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tl-text-side {
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.tl-text-header h1 {
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.tl-line {
+  height: 1px;
+  width: 1%;
+  margin: 0 auto;
+  background: black;
+  opacity: 0.3;
+}
+
+.tl-text-paragraph {
+  font-size: 1.75rem;
+  margin: 0 5rem;
+  padding-top: 20px;
+}
+.tl-text-paragraph p {
+  font-weight: 200;
+  color: slategray;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.tl-text-paragraph h3 {
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: lightslategray;
+}
+
+@media screen and (max-width: 1040px) {
+  .tl-text-paragraph {
+    font-size: 1rem;
+    margin: 0 1.5rem;
+    padding-top: 20px;
+  }
+  .tl-text-paragraph p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: slategray;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .tl-text-paragraph h3 {
+    font-size: 1rem;
+  }
+  .tl-content {
+    border-radius: 25px;
+    padding-top: 1rem;
+    margin: auto;
+    height: 10%;
+    width: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .tl-text-header h1 {
+    padding: 20px 10px;
+  }
+}

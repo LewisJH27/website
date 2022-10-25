@@ -1,7 +1,7 @@
 import "./WorkExperienceStyles.css";
 import lenses from "../assets/lenses.jpg";
 import optics from "../assets/optics.jpg";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 import React from "react";
 
@@ -17,7 +17,7 @@ const WorkExperience = () => {
           <h3>Summer Intern</h3>
           <p>Data Analysis - Numerical Modelling - Software Engineering</p>
           <div className="button">
-            <Link className="btn" to="form" spy={true} smooth={true}>
+            <Link className="btn" to="/experience/trulife">
               More Info
             </Link>
           </div>
@@ -33,7 +33,12 @@ const WorkExperience = () => {
           <p>Data Science - Software Development</p>
 
           <div className="button">
-            <Link className="btn btn-light" to="form" spy={true} smooth={true}>
+            <Link
+              className="btn btn-light"
+              to="/experience/apsensing"
+              spy={true}
+              smooth={true}
+            >
               More Info
             </Link>
           </div>

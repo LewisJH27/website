@@ -1,7 +1,6 @@
 .page-content {
-  height: 100vh;
-  max-height: 100vh;
-  background: black;
+  min-height: 100vh;
+  background: white;
 }
 
 .aboutme-content {
@@ -18,14 +17,16 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+  max-width: 50vw;
+  max-height: 100%;
   margin: auto;
 }
 .img {
   border-radius: 100%;
-  height: auto;
-  max-height: 500px;
-  width: auto;
+  height: 100%;
+  width: 80%;
+  max-height: 250px;
   max-width: 200px;
   padding-top: 20px;
 }
@@ -61,7 +62,7 @@
 
 @media screen and (max-width: 1040px) {
   .text-paragraph {
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 0 5rem;
     padding-top: 20px;
   }
