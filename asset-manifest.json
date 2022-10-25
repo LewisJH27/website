@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.a638fcfd.css",
+    "main.js": "/website/static/js/main.292b0b72.js",
+    "static/media/optics.jpg": "/website/static/media/optics.d63632f49968b8f1de58.jpg",
+    "static/media/City.jpg": "/website/static/media/City.394395a2a2980af679ae.jpg",
+    "static/media/Me.jpg": "/website/static/media/Me.183637ab53c676c25cb6.jpg",
+    "static/media/stocks1.jpg": "/website/static/media/stocks1.0f61d826d7f3819a3562.jpg",
+    "static/media/lenses.jpg": "/website/static/media/lenses.ab0923e8ff700a12d788.jpg",
+    "index.html": "/website/index.html",
+    "main.a638fcfd.css.map": "/website/static/css/main.a638fcfd.css.map",
+    "main.292b0b72.js.map": "/website/static/js/main.292b0b72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a638fcfd.css",
+    "static/js/main.292b0b72.js"
+  ]
+}
