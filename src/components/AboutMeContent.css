@@ -1,10 +1,17 @@
 .page-content {
   min-height: 100vh;
-  background: white;
+  background: rgb(168, 168, 168);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
 }
 
 .aboutme-content {
+  margin: 5rem 5rem 5rem 5rem;
+  border-radius: 25px;
   padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
   height: 100%;
   background: white;
   display: flex;
@@ -60,10 +67,15 @@
   padding-bottom: 20px;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 640px) {
+  .aboutme-content {
+    margin: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   .text-paragraph {
     font-size: 1rem;
-    margin: 0 5rem;
+    margin: 0 1rem;
     padding-top: 20px;
   }
   .text-paragraph p {

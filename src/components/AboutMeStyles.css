@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  /* animation: drop 3s; */
+  animation: drop 3s;
 }
 @keyframes drop {
   0% {
@@ -21,9 +21,9 @@
   }
 }
 
-/* .content {
+.content {
   animation: jump 3s;
-} */
+}
 .about-img {
   width: 100%;
   height: 100%;
@@ -73,6 +73,7 @@
 
 .arrow-dom {
   position: relative;
+  animation: bounce 2s infinite;
 }
 .arrow {
   cursor: pointer;
@@ -87,12 +88,13 @@ mark {
 
 @media screen and (max-width: 640px) {
   .about .content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: 300;
   }
 
   .about .content p {
-    font-size: 1.4rem;
-    padding-top: 60px;
+    font-size: 1.25rem;
+    padding-top: 0px;
     padding-bottom: 60px;
   }
   .content .btn {

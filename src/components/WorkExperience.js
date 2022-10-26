@@ -15,7 +15,7 @@ const WorkExperience = () => {
         <div className="content">
           <h1>TruLife Optics</h1>
           <h3>Summer Intern</h3>
-          <p>Data Analysis - Numerical Modelling - Software Engineering</p>
+
           <div className="button">
             <Link className="btn" to="/experience/trulife">
               More Info
@@ -30,7 +30,6 @@ const WorkExperience = () => {
         <div className="content">
           <h1>AP Sensing</h1>
           <h3>Summer Intern</h3>
-          <p>Data Science - Software Development</p>
 
           <div className="button">
             <Link
