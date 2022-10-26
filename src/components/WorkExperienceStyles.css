@@ -1,52 +1,51 @@
 .work-experience {
   display: flex;
-  justify-content: center;
-  max-width: 100vw;
-  max-height: 100vh;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
 }
-.mask {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  animation: drop 3s;
+@keyframes drop {
+  0% {
+    top: -1000px;
+  }
+  100% {
+    top: 0;
+  }
 }
-
-.mask::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  opacity: 0.65;
-}
-
 .experience1 {
-  max-height: 100vh;
-  width: 100%;
-}
-.experience1-img {
-  width: 100%;
-  height: 100%;
-
-  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../assets/lenses.jpg");
   background-position: center;
-  object-fit: cover;
+  background-size: cover;
+  display: flex;
+  /* background: lightslategray; */
+  width: 50%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
-
 .experience2 {
-  width: 100%;
-  max-height: 100vh;
-}
-
-.experience2-img {
-  width: 100%;
-  height: 100%;
-
-  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../assets/optics.jpg");
   background-position: center;
-  object-fit: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: maroon; */
+  width: 50%;
+  height: 100vh;
+}
+.content h1 {
+  font-weight: 100;
+  font-size: 1.75rem;
+}
+.content h3 {
+  font-weight: 300;
+  padding: 15px;
+  font-size: 1.25rem;
 }
 
 @keyframes drop {
@@ -57,107 +56,24 @@
     top: 0;
   }
 }
-@keyframes jump {
-  0% {
-    top: -500%;
-  }
-  100% {
-    top: 50%;
-  }
-}
-
-.experience1 .content {
-  position: absolute;
-  text-align: center;
-
-  top: 50%;
-  left: 50%;
-  transform: translate(-125%, -50%);
-  width: 35%;
-}
-
-.experience1 .content h1 {
-  font-size: 3rem;
-  padding: 0.6rem 0 0.5rem;
-}
-.experience1 .content h3 {
-  font-size: 1.5rem;
-  padding: 0.6rem 0 0.5rem;
-  font-weight: 300;
-}
-
-.experience1 .content p {
-  font-size: 1.2rem;
-  font-weight: 200;
-  padding-bottom: 60px;
-}
-
-.experience2 .content {
-  position: absolute;
-  text-align: center;
-
-  top: 50%;
-  left: 50%;
-  transform: translate(25%, -50%);
-  width: 35%;
-}
-
-.experience2 .content h1 {
-  font-size: 3rem;
-  padding: 0.6rem 0 0.5rem;
-}
-
-.experience2 .content h3 {
-  font-size: 1.5rem;
-  padding: 0.6rem 0 0.5rem;
-  font-weight: 300;
-}
-
-.experience2 .content p {
-  font-size: 1.2rem;
-  font-weight: 200;
-  padding-bottom: 60px;
-}
-
-.arrow-dom {
-  position: relative;
-}
-.arrow {
-  cursor: pointer;
-}
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1040px) {
   .work-experience {
     flex-direction: column;
   }
-  .experience1 .content {
-    position: absolute;
-
-    text-align: center;
-
-    transform: translate(-50%, -200%);
-    width: 75%;
+  .experience1 {
+    width: 100%;
+    height: 50vh;
   }
-
-  .experience2 .content {
-    position: absolute;
-    text-align: center;
-
-    transform: translate(-50%, 75%);
-    width: 75%;
+  .experience2 {
+    width: 100%;
+    height: 50vh;
   }
-  .experience1-img {
-    position: inherit;
-    bottom: -25%;
+  .content h1 {
+    font-weight: 100;
+    font-size: 1.25rem;
   }
-  .experience2-img {
-    position: inherit;
-    height: 50%;
-  }
-  .experience1 .content h1 {
-    font-size: 1.75rem;
-  }
-  .experience2 .content h1 {
-    font-size: 1.75rem;
+  .content h3 {
+    font-weight: 300;
+    padding: 5px;
   }
 }

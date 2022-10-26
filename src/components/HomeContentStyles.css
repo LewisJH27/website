@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 3rem;
 }
 .content-main {
   border-radius: 25px;
@@ -52,7 +53,7 @@
 }
 
 .content-sub {
-  padding-top: 50px;
+  padding-top: 20px;
   color: black;
   font-weight: 100;
 }

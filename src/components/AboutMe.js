@@ -19,12 +19,7 @@ const AboutMe = () => {
             Studying Theoretical Physics.
           </p>
           <div className="arrow-dom">
-            <Link
-              className="arrow"
-              to="aboutme-content"
-              spy={true}
-              smooth={true}
-            >
+            <Link className="arrow" to="page-content" spy={true} smooth={true}>
               <BsArrowDown size={30} style={{ color: "#fff" }} />
             </Link>
           </div>

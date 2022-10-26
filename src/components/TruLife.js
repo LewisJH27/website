@@ -9,7 +9,7 @@ const TruLife = () => {
         <div className="tl-ext-side">
           <div className="text">
             <div className="tl-text-header">
-              <h1>General Scientific Programming Intern | Summer of 2022</h1>
+              <h1>Scientific Programming Intern | Summer of 2022</h1>
             </div>
             <div className="tl-line"></div>
             <div className="tl-text-paragraph">
