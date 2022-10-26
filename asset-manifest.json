@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.272a89c5.css",
+    "main.css": "/website/static/css/main.9d4a4106.css",
     "main.js": "/website/static/js/main.2d89664a.js",
     "static/media/optics.jpg": "/website/static/media/optics.d63632f49968b8f1de58.jpg",
     "static/media/City.jpg": "/website/static/media/City.394395a2a2980af679ae.jpg",
@@ -9,11 +9,11 @@
     "static/media/lenses.jpg": "/website/static/media/lenses.ab0923e8ff700a12d788.jpg",
     "static/media/apsensing.jpeg": "/website/static/media/apsensing.e8fcc590b4a8c123f0c3.jpeg",
     "index.html": "/website/index.html",
-    "main.272a89c5.css.map": "/website/static/css/main.272a89c5.css.map",
+    "main.9d4a4106.css.map": "/website/static/css/main.9d4a4106.css.map",
     "main.2d89664a.js.map": "/website/static/js/main.2d89664a.js.map"
   },
   "entrypoints": [
-    "static/css/main.272a89c5.css",
+    "static/css/main.9d4a4106.css",
     "static/js/main.2d89664a.js"
   ]
 }
