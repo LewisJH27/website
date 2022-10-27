@@ -24,13 +24,13 @@ const TruLife = () => {
               <p>
                 Through the use of the Python library Tkinter and Object
                 Oriented Programming, I created a GUI software that could be
-                installed on any in house device. This was incredibely useful
+                installed on any in-house device. This was incredibely useful
                 for the company since anybody wishing to use the script could
                 easily do so and store the results produced by the script in a
                 personal output Excel file. Prior to my software, the scripts
                 code would need to be manually edited to input user defined
                 parameters and retrieve the results, which clearly is
-                inconvenient and requires technical skills in python.
+                inconvenient and requires technical skills in Python.
               </p>
               <p>
                 After completing the inital task, I moved onto working on
@@ -48,14 +48,14 @@ const TruLife = () => {
                 Finally, I created a GUI for this second script. It allowed the
                 user to easily take advantage of the new features added by
                 myself in the re-written version. Notably, any user could easily
-                select a directory and run the analyser on the entire directory,
-                finding the results of the script automatically written and
-                saved to a personal Excel output file of their choice. The
-                biggest breakthrough of this software is that it saved an
-                incredible amount of time, it was no longer required to find the
-                optimal perameters by hand, the script could model required
-                results by itself and the outputs being automatically written
-                into Excel is another incredible time save.
+                select a folder and run the analysis script on the entire
+                directory, finding the results of the script automatically
+                written and saved to a personal Excel output file of their
+                choice. The biggest breakthrough of this software is that it
+                saved an incredible amount of time, it was no longer required to
+                find the optimal perameters by hand, the script could model
+                required results by itself and the outputs being automatically
+                written into Excel is another incredible time save.
               </p>
             </div>
             <div className="tl-line"></div>
@@ -64,7 +64,7 @@ const TruLife = () => {
             </div>
             <div className="tl-line"></div>
             <div className="tl-text-paragraph">
-              <p>Data Analysis | Software Development | Numerical Modelling</p>
+              <p>Data Analysis | Software Engineering | Numerical Modelling</p>
               <h3>
                 Python | Tkinter | NumPy | SciPy | MatPlotLib |OpenPyXl | OS
               </h3>

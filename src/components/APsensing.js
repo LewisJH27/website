@@ -14,10 +14,11 @@ const APsensing = () => {
             <div className="ap-line"></div>
             <div className="ap-text-paragraph">
               <p>
-                In the summer of 2021, I completed a 12 week internship with
-                APSensing within the Data Science team. The focus of my
-                internship was to create a web application capable of data
-                visualition.
+                I completed a 12 week internship at Advanced Photonic Sensing
+                (AP Sensing), the sister company to Hewlett Packard, within the
+                companies Data Science team. The focus of my internship was to
+                create a web application capable of data visualition and
+                analysis.
               </p>
               <p>
                 Initially, I spent time creating a library of functions that
@@ -51,7 +52,7 @@ const APsensing = () => {
             </div>
             <div className="ap-line"></div>
             <div className="ap-text-paragraph">
-              <p>Data Science | Data Visualisation | Software Engineering</p>
+              <p>Data Science | Data Visualisation | Web App Development</p>
               <h3>Python | Dash | Plotly | NumPy | SciPy | Pandas | OS</h3>
             </div>
           </div>

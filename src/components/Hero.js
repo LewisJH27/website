@@ -12,7 +12,7 @@ const Hero = () => {
       </div>
       <div className="hero-content">
         <p>I'm Lewis Hodgson,</p>
-        <h1>Aspiring Quantitative Trader</h1>
+        <h1>Aspiring Quantitative Developer</h1>
         <div className="arrow-dom">
           <Link className="arrow" to="home-content" spy={true} smooth={true}>
             <BsArrowDown size={30} style={{ color: "#fff" }} />
