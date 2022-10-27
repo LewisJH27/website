@@ -29,13 +29,13 @@ const AboutMeContent = () => {
                 projects (BSc Final Year Project), I have been self teaching a
                 wide range of langauges and frameworks, exploring many different
                 areas in programming including; Cyber Security, Competitive
-                Programming and Full stack development. Many people do not
-                believe in learning 'everything', instead sticking to a niche,
-                but I personally enjoy the challenge. During my internship
-                projects, the benefits of having self taught in a variety of
-                programming areas were evident since I could always use my
-                extensive knowledge to better the final result in a way that was
-                not expected of me by my supervisors.
+                Programming in C++ and Full stack development. Many people do
+                not believe in learning 'everything', instead sticking to a
+                niche, but I personally enjoy the challenge. During my
+                internship projects, the benefits of having self taught in a
+                variety of programming areas were evident since I could always
+                use my extensive knowledge to better the final result in a way
+                that was not expected of me by my supervisors.
               </p>
               <p>
                 I also enjoy self teaching Mathematics and Finance, using
